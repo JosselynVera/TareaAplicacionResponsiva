@@ -7,6 +7,39 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="25dp">
 
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="98dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_8" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="98dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_8" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="98dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/img_8" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="230dp"
@@ -41,6 +74,7 @@
         android:layout_marginTop="3dp"
         android:fontFamily="sans-serif"
         android:text="Versión: 9.5.0"
+        android:textSize="13sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.513"
@@ -78,7 +112,7 @@
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button2"
@@ -103,7 +137,7 @@
         android:fontFamily="sans-serif"
         android:text="Cuida tus conraseñas, no las compartas con nadie."
         android:textColor="#05125C"
-        android:textSize="13sp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/animationView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,8 +148,8 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
-        android:layout_width="549dp"
-        android:layout_height="346dp"
+        android:layout_width="585dp"
+        android:layout_height="350dp"
         android:layout_marginTop="112dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -131,7 +165,7 @@
         android:foregroundTint="#E6DDDD"
         android:text="Usuario y contraseña"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#05125C"
         android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/button"
@@ -148,7 +182,7 @@
         android:foregroundTint="#E6DDDD"
         android:text="Huella /           Face ID"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#05125C"
         android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/button2"
@@ -165,7 +199,7 @@
         android:foregroundTint="#E6DDDD"
         android:text="Pin de               6 dígitos"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#05125C"
         android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
@@ -229,6 +263,23 @@
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="171dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="16dp"
+        android:text="¿Ingresar con otro usuario?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#4C85BF"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView7"
@@ -298,5 +349,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:srcCompat="@drawable/img_5" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
