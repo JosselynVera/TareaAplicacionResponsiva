@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="80dp" />
-    <solid android:color="#05125C" />
+    <!-- Fondo redondeado -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15dp" />
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Sombra -->
+    <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="#B8C7D3" /> <!-- Ajusta el color y la opacidad de la sombra -->
+        </shape>
+    </item>
 </selector>
