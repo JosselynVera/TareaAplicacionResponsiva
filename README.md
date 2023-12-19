@@ -1,1 +1,2 @@
-![image](https://github.com/JosselynVera/TareaAplicacionResponsiva/assets/151960853/19d90238-d7f5-4c3c-bad2-99c592022ac0)
+![image](https://github.com/JosselynVera/TareaAplicacionResponsiva/assets/151960853/3e1e26e8-54d5-4ba2-b2c9-1b4e7b144385)
+
